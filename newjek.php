@@ -108,8 +108,8 @@ function change(){
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("red","========( PIN ANDA = 225588 )========")."\n";
-         $data2 = '{"pin":"225588"}';
+         echo color("red","========( PIN ANDA = 088880 )========")."\n";
+         $data2 = '{"pin":"088880"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp set pin: ";
          $otpsetpin = trim(fgets(STDIN));
