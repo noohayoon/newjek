@@ -9,7 +9,7 @@ $header[] = "X-AppVersion: 3.46.1";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -6.220".mt_rand(100,999).",106.77".mt_rand(1000,9999);
+$header[] = "X-Location: -6.858".mt_rand(100,999).",110.83".mt_rand(1000,9999);
 if ($pin):
 $header[] = "pin: $pin";
     endif;
